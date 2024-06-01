@@ -5,7 +5,8 @@
 
 #movimientos {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 100px;
     background-color: rgb(192, 215, 252);
     padding: 20px;
 }
@@ -15,20 +16,34 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px;
     width: 30vw;
 
 }
 
 #tituloIngresos {
-    padding-bottom: 20px;
+    padding: 20px 20px 20px 0px;
+    border-bottom: grey 2px solid ;
+
 }
 
 #movimientosIngresos {
-    background-color: rgb(172, 235, 203);
+    background-color: rgb(172, 232, 202);
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.filaIngresos {
+    background-color: rgb(144, 220, 220);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: grey 2px solid ;
+}
+
+.filaIngresos div {
+    padding: 10px;
 }
 
 #columnaGastos {
@@ -39,4 +54,5 @@
     padding: 20px;
     width: 30vw;
 }
+
 

@@ -48,6 +48,45 @@
 
 }
 
+.ingresar {
+    background-color: rgb(240, 241, 236);
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.ingresar select, input {
+    height: 60%;    
+    font-size: 2rem;
+    color: grey;
+    background-color: white;
+    box-shadow: 10px 10px 5px rgb(222, 222, 222);
+    border-radius: 10px;
+    border: none;
+
+}
+
+.signo {
+    width: 90px;
+}
+
+#descripcionMovimiento {
+    width: 600px;
+}
+
+#dineroMovimiento {
+    width: 200px;
+}
+
+#tickAdd{
+    height: 40%;
+    cursor: pointer;
+}
+
 .movimientos {
     display: flex;
     justify-content: center;

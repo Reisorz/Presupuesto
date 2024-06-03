@@ -1,4 +1,4 @@
-class Ingresos {
+class Ingreso {
     constructor (descripcion, valor) {
         this._descripcion = descripcion;
         this._valor = valor;
@@ -20,7 +20,7 @@ class Ingresos {
     }
 }
 
-class Gastos {
+class Gasto {
     constructor (descripcion, valor) {
         this._descripcion = descripcion;
         this._valor = valor;

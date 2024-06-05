@@ -87,6 +87,15 @@
     cursor: pointer;
 }
 
+.mensajeError {
+    width: 1vw;
+    text-wrap: nowrap;
+    color: rgb(223, 13, 13);
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
 .movimientos {
     display: flex;
     justify-content: center;
